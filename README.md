@@ -43,3 +43,5 @@ bash update_files.sh
 # 2) Testing Workflow
 
 Similar to example_config.js file which represents the training configuration, example_eval_config.js file represents the evaluation configurations. 
+
+python main.py --config configs/example_eval_config.json
