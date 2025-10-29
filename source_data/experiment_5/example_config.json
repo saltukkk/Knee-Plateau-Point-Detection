@@ -1,0 +1,29 @@
+{
+    "model_type": "CRAUNet",
+    "split_file": "../annotations/unified_data_with_splits.csv",
+    "details_file": "../data/transformation_details.csv",
+    "base_image_dir": "../data/images",
+    "batch_size": 8,
+    "num_epochs": 300,
+    "learning_rate": 1e-4,
+    "best_model_path": "../CRAUNet_baseline_Notch.pth", 
+    "loss_wing_w": 3.0, 
+    "loss_wing_epsilon": 1.5, 
+    "landmark_loss_weights": { 
+        "cmt1": 1.0,
+        "cmtc": 1.0,
+        "cmt2": 1.0
+    },
+    "base_lr": 2e-4,
+    "max_lr": 2e-3,
+    "step_size_down": 24,
+    "device": "cuda",
+    "landmarks": [ 
+        {"name": "cmt1", "coordinates": ["x", "y"]},
+        {"name": "cmtc", "coordinates": ["x", "y"]},
+        {"name": "cmt2", "coordinates": ["x", "y"]},
+        {"name": "cmb1", "coordinates": ["x", "y"]},
+        {"name": "cmb3", "coordinates": ["x", "y"]}
+    ],
+    "data_filter_labelName": "" 
+}
