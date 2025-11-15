@@ -40,8 +40,16 @@ Run the `update_files.sh` script from the project's root directory. This will de
 ```bash
 bash update_files.sh
 ```
+
+### Step 3: Training a Model
+
+Consider your hyper-paramters hard-coded into the `run_experiments3.py` file.
+Then run the script `run_experiments3.py` for doing multiple training experiments.
+
 # 2) Testing Workflow
 
 Similar to example_config.js file which represents the training configuration, example_eval_config.js file represents the evaluation configurations. 
 
-python main.py --config configs/example_eval_config.json
+I. Make sure to put the model file *.pth to the / directory.
+II. Make sure that the example_eval_config.json file is properly arranged. For example "best_model_path" parameter must be match with the trained model name
+III. Run the command: python main.py --config configs/example_eval_config.json
