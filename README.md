@@ -53,3 +53,9 @@ Similar to example_config.js file which represents the training configuration, e
 I. Make sure to put the model file *.pth to the / directory.
 II. Make sure that the example_eval_config.json file is properly arranged. For example "best_model_path" parameter must be match with the trained model name
 III. Run the command: python main.py --config configs/example_eval_config.json
+
+
+TODO:
+1. Add a dataset that is not preprocessed
+2. Add a dataset that is preprocessed
+3. Give visual outputs
