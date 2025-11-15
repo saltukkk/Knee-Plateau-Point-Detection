@@ -19,7 +19,7 @@ import datetime
 experiments = [
     # --- Baseline RAUNet ---
     {
-        "name": "CRAUNet_baseline_epoch_50",
+        "name": "CRAUNet_baseline_Notch",
         "params": {
             "model_type": "CRAUNet",
             "learning_rate": 1e-4,
