@@ -58,9 +58,14 @@ Similar to example_config.js file which represents the training configuration, e
 
 # 3) Presentation of Outputs
 
+<img width="400" height="400" alt="554682" src="https://github.com/user-attachments/assets/b9bd3e8d-99c8-4aeb-984a-d5bb1f54e948" />
+<img width="400" height="400" alt="Test_Sample_10" src="https://github.com/user-attachments/assets/f79ff92b-315c-4f43-b50b-67401e008418" />
+
+# 4) Theoretical Explaination
+
 ![Alt text](for-readme-file/Poster_Submit.jpg)
 
-# 4) Preprocessed Dataset
+# 5) Preprocessed Dataset
 
 Object segmentation is applied to full LLRs and knee plateau regions are extracted. Then the labelled anatomic points are transformed according to the image transformation. Also, radiographs are masked by using semantic segmentation which is not necessary. It is proven by our experiments that this does not boost the performance of the model. After these two steps, LLRs are padded vertically to fit the model's standart 512x512 pixels.
 
