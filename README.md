@@ -69,7 +69,8 @@ Dataset: https://drive.google.com/drive/u/0/folders/1M7FiZTWW6XmTw3tWmiTny0_Jgos
 
 TODO:
 1. Add a dataset that is not preprocessed
-2. Add a dataset that is preprocessed
-3.  
+2.
+   ~~Add a dataset that is preprocessed~~
+4.  
    ~~Give visual outputs~~
 
